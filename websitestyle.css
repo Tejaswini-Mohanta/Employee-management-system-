@@ -1,0 +1,147 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+   width: 100%;
+  height: 400px;
+  background-image:url('https://cdn.deliciousbrains.com/content/uploads/2015/09/03114032/photo-1428189923803-e9801d464d76-1540x885.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+    font-family:sans-serif;
+     margin:0;
+  padding:0;
+}
+.menu-bar{
+  background:rgb(0, 68, 102);
+  text-align:center;
+}
+.menu-bar ul{
+  display:inline-flex;
+    list-style:none;
+    color: #fff;
+}
+#logo{
+  display:inline-block;
+  margin:15px;
+  float:left;
+  height:60px;
+  width:auto;
+  border-radius:50%;
+}
+.menu-bar li{
+  width:120px;
+    margin:10px;
+    padding:12px;
+}
+.menu-bar li a{
+  text-decoration:none;
+  color:#fff;
+}
+.active,.menu-bar ul li:hover{
+  background:lightblue;
+  border-radius:1px;
+  width:100px;
+}
+.menu-bar .fa{
+  margin-right:10px;
+}
+.submenu-1{
+  display:none;
+}
+.menu-bar ul li:hover .submenu-1{
+  display:block;
+  position:absolute;
+  background:lightblue;
+  margin-top:15px;
+  margin-left:-12px;
+}
+.menu-bar ul li:hover .submenu-1 ul{
+  display:block;
+  margin:22px;
+
+}
+.menu-bar ul li:hover .submenu-1 ul li{
+  width:155px;
+  padding:1px;
+  border-bottom:1px dotted #fff;
+  background:transparent;
+  border-radius:0;
+  text-align:left;
+}
+.menu-bar ul li:hover .submenu-1 ul li:last-child{
+  border-bottom:none;
+}
+.menu-bar ul li:hover .submenu-1 ul li a:hover{
+  color:rgb(0, 68, 102);
+}
+.fa-angle-right{
+  float:right;
+}
+.header{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:sans-serif;
+}
+h1{
+  color:rgb(0, 68, 102);
+  margin-bottom: 20px;
+  letter-spacing:2px;
+  text-align:center;
+}
+
+footer{
+  font-size:22px;
+}
+.footer-1{
+  background:rgb(0, 68, 102);
+ background-position:center;
+    font-family:sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 22px;
+  border: 1px solid black;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  color:rgb(0,68,102);
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 12.2px;
+  background:rgb(0,68,102);
+  color: white;
+  font-size: 17px;
+  border: 1px solid black;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background:#ffc107;
+  cursor:pointer;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
